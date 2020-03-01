@@ -5,4 +5,4 @@ Public Source code for book minimal Python
 
 ![minimal python book](https://d2sofvawe08yqg.cloudfront.net/minimalpython/hero?1582640276)
 
-* [Chapter 1 Notebooks](https://github.com/paiml/minimal-python/blob/master/Chapter1_Minimal_Python.ipynb)
+* [Chapter 1: Learn to execute commands in Python- Colab Notebooks](https://github.com/paiml/minimal-python/blob/master/Chapter1_Minimal_Python.ipynb)
