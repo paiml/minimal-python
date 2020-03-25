@@ -12,7 +12,7 @@ Public Source code for book minimal Python
 
 * Chapter 2: Learn to store data
 
-* Chapter 3: Learn to create functions
+* [Chapter 3: Learn to create functions- Colab Notebooks](https://github.com/paiml/minimal-python/blob/master/Chapter3_Functions.ipynb)
 
 * Chapter 4: Test your functions
 
