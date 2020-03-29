@@ -20,7 +20,7 @@ Public Source code for book minimal Python
 
 * Chapter 6: Build a web application with Flask
 
-* Chapter 7: Do some data science with Pandas
+* [Chapter 7: Do some data science with Pandas](https://github.com/paiml/minimal-python/blob/master/Chapter7_data_science.ipynb)
 
 * Chapter 8: Make a prediction with sklearn
 
