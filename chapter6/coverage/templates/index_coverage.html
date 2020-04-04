@@ -1,0 +1,9 @@
+<ul>
+  {% if files %}
+    {% for file in files %}
+    <li><a href="{{ file }}">{{ file }}</a></li>
+    {% endfor %}
+  {% else %}
+    <h3>Bummer! it seems that there aren't any projects with htmlcov/index.html available</h3>
+  {% endif %}
+</ul>
