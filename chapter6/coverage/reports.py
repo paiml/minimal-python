@@ -33,15 +33,3 @@ def project(project):
         abort(404, description='Invalid Project, not found!')
     index_file = os.path.join(TOP_DIR, project, 'htmlcov/index.html')
     return send_file(index_file)
-    return app.send_static_file(index_file)
-    return render_template(index_file)
-    #return url_for('static', filename=index_file)
-
-@app.route('/<project>/<path:req_path>')
-def project_files(project, req_path):
-    TOP_DIR='/Users/alfredo/python'
-    abs_path = os.path.join(TOP_DIR, project, 'htmlcov', req_path)
-    if os.path.isfile(abs_path):
-        return send_file(abs_path)
-    else:
-        abort(404)
